@@ -1,0 +1,3 @@
+0 * * * * /usr/bin/time -v /opt/monitoring/env/bin/python3 /opt/monitoring/monitor_server.py --log > /dev/null 2>> /opt>
+
+30 * * * * cd /opt/monitoring-go && /usr/bin/time -v ./monitor-app --log > /dev/null 2>> /opt/monitoring/bench_go.log

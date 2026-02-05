@@ -1,0 +1,58 @@
+# Environment Variables - KEEP SECRET!
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Logs
+*.log
+error_log.txt
+daily_log.csv
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Benchmark results
+*.csv
+clean_benchmark_*.csv
+bench_*.log
+
+# PDF reports
+Laporan_*.pdf
+
+# Discord attachments
+# (stored temporarily only)

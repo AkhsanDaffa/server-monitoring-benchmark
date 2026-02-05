@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    
+    // Trigger jam 6 pagi Waktu Indonesia Barat
+    triggers {
+        cron('TZ=Asia/Jakarta \n 10 6 * * *') 
+    }
+    
+    stages {
+        stage('Generate Report') {
+            steps {
+                // Menggunakan ID Credential yang sudah dibuat
+                sshagent(['server-host-ssh']) {
+                    // Login ke Host via Gateway Docker (172.17.0.1)
+                    // Menjalankan script mode --report menggunakan python venv
+                    sh "ssh -i /var/jenkins_home/.ssh/id_rsa -o StrictHostKeyChecking=no akhsan_server@172.17.0.1 '/opt/monitoring/env/bin/python /opt/monitoring/monitor_test.py --report'"
+                    
+                    sh "ssh -i /var/jenkins_home/.ssh/id_rsa -o StrictHostKeyChecking=no akhsan_server@172.17.0.1 'cd /opt/monitoring-go && ./monitor-app --report'"
+                }
+            }
+        }
+    }
+}
