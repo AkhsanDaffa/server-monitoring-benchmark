@@ -127,7 +127,7 @@ server-monitoring-benchmark/
 graph LR
     A[Cron Job] --> B[Python Script]
     A --> C[Golang Binary]
-    B --> D[/usr/bin/time -v]
+    B --> D["/usr/bin/time -v"]
     C --> D
     D --> E[CSV Logging]
     D --> F[Performance Metrics]
