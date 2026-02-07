@@ -2,7 +2,7 @@
 
 ![Golang](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python)
-![Status](https://img.shields.io/badge/Status-Stability%20Test%20(Day%201%20of%207)-orange)
+![Status](https://img.shields.io/badge/Status-Stability%20Test%20(Day%202%20of%207)-green)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🚀 Quick Impact Summary
@@ -78,17 +78,18 @@ Exit status: 0
 
 | **Timeline** | **Status** | **Target** |
 |--------------|------------|------------|
-| **Start Date**: Feb 5, 2025 07:00 WIB | 🟢 **Running** | Initial performance capture |
-| **End Date**: Feb 12, 2025 07:00 WIB | ⏳ **In Progress** | Memory leak detection |
+| **Start Date**: Feb 5, 2026 07:00 WIB | 🟢 **Running** | Initial performance capture |
+| **End Date**: Feb 12, 2026 07:00 WIB | ⏳ **In Progress** | Memory leak detection |
 | **Data Points**: 168 hourly measurements | ⏳ **In Progress** | Performance consistency |
 | **Final Report**: Coming soon | ⏳ **Pending** | Long-term stability graphs |
 
 ### Daily Progress Tracking
 | Day | Status | Notes |
 |-----|--------|-------|
-| **Day 1** | 🟢 Completed | 15x efficiency baseline established |
-| **Day 2-7** | ⏳ In Progress | Memory leak & GC efficiency monitoring |
-| **Day 7** | ⏳ Pending | Final analysis & visualization |
+| **Day 1** | 🟢 **Done** | Initial Snapshot taken. 15x Efficiency recorded. |
+| **Day 2** | 🟢 **Done** | **Stable.** RAM: 12.4MB (Go) vs 185.7MB (Py). No leaks detected. |
+| Day 3 | ⏳ Pending | - |
+| ... | ... | ... |
 
 **Testing Methodology:**
 - **Automation**: Cron job execution every hour via `crontab -e`
