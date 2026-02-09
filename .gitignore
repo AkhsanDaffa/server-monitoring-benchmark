@@ -21,15 +21,16 @@ ENV/
 *.out
 go.work
 
-# Logs
-*.log
+# Temporary logs (exclude only temp files, keep benchmark logs)
 error_log.txt
 daily_log.csv
+temp_*.log
 
 # Temporary files
 *.tmp
 *.temp
 /tmp/
+sample_block.txt
 
 # OS generated files
 .DS_Store
@@ -46,13 +47,17 @@ Thumbs.db
 *.swp
 *.swo
 
-# Benchmark results
-*.csv
+# Temporary benchmark files (exclude only temp files, keep analysis results)
 clean_benchmark_*.csv
-bench_*.log
+temp_*.csv
+temp_*.log
 
-# PDF reports
+# PDF reports (exclude only temp reports)
 Laporan_*.pdf
 
-# Discord attachments
-# (stored temporarily only)
+# Discord attachments (stored temporarily only)
+
+# Local development files
+*.local
+dev_*
+test_*

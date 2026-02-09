@@ -1,0 +1,3 @@
+day,go_measurements,go_avg_memory_kb,go_min_memory_kb,go_max_memory_kb,go_memory_variance_kb,go_avg_cpu_percent,go_avg_elapsed_sec,go_avg_performance_score,py_measurements,py_avg_memory_kb,py_min_memory_kb,py_max_memory_kb,py_memory_variance_kb,py_avg_cpu_percent,py_avg_elapsed_sec,py_avg_performance_score,memory_efficiency_ratio,cpu_improvement_percent,speed_improvement_percent
+day2,60,12694.47,11980,13556,1576,9.3,27.42,52.22,59,185698.51,185488,185896,408,14.54,42.7,43.05,14.63,36.05,35.79
+day3,99,12795.8,11856,13832,1976,9.25,27.62,52.15,98,185683.59,185488,185896,408,14.52,43.12,42.93,14.51,36.28,35.95
