@@ -484,7 +484,7 @@ crontab infrastructure/crontab_setup.txt
 - **IoT Edge**: ARM binaries with offline capabilities
 
 ### **Business Justification**
-- **Cost Reduction**: Resource optimization = lower cloud bills
+- **Cost Reduction**: Resource optimization = lower cloud bills 
 - **Scalability**: Multi-instance deployment efficiency
 - **Compliance**: Enterprise-ready security and auditing
-- **Innovation**: AI-powered predictive maintenance
+- **Innovation**: AI-powered predictive maintenance server
